@@ -1,0 +1,19 @@
+
+server:
+  port: 8081
+  servlet:
+    context-path: /primeiro-exemplo
+
+spring:
+  application:
+    name: primeiro-exemplo
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:15432/clientes
+    username: admin
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
